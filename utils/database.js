@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 // Include Sequelize module
-const Sequelize = require('sequelize')
+const Sequelize = require('sequelize');
 
 // Creating new Object of Sequelize
 const sequelize = new Sequelize(
@@ -23,4 +23,4 @@ const sequelize = new Sequelize(
 // Exporting the sequelize object.
 // We can use it in another file
 // for creating models
-module.exports = sequelize
+module.exports = sequelize;

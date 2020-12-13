@@ -1,10 +1,10 @@
-'use strict'
+'use strict';
 const fs = require('fs');
 const parse = require('csv-parse');
 const async = require('async');
 const Address = require('./models/address');
 
-let inputFilePath = 'media/addressVerified.csv'
+let inputFilePath = 'media/addressVerified.csv';
 let parser = parse({delimiter: ','}, function (err, data) {
     function addAddress(line) {
         const address = Address.create({

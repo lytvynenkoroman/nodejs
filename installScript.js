@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 // Import the sequelize object on which
 // we have defined model.
 const sequelize = require('./utils/database');
@@ -11,7 +11,7 @@ const Address = require('./models/address');
 
 // Sync all models that are not
 // already in the database
-sequelize.sync()
+sequelize.sync();
 
 // Force sync all models
 // It will drop the table first

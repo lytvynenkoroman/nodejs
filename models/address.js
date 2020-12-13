@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 // Include Sequelize module.
 const Sequelize = require('sequelize');
 
